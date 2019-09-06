@@ -6,7 +6,7 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/urfave/cli"
+	"github.com/radiantrfid/cli"
 )
 
 // FlagInputSourceExtension is an extension interface of cli.Flag that

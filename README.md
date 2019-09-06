@@ -4,7 +4,7 @@ cli
 [![Build Status](https://travis-ci.org/urfave/cli.svg?branch=master)](https://travis-ci.org/urfave/cli)
 [![Windows Build Status](https://ci.appveyor.com/api/projects/status/rtgk5xufi932pb2v?svg=true)](https://ci.appveyor.com/project/urfave/cli)
 
-[![GoDoc](https://godoc.org/github.com/urfave/cli?status.svg)](https://godoc.org/github.com/urfave/cli)
+[![GoDoc](https://godoc.org/github.com/radiantrfid/cli?status.svg)](https://godoc.org/github.com/radiantrfid/cli)
 [![codebeat](https://codebeat.co/badges/0a8f30aa-f975-404b-b878-5fab3ae1cc5f)](https://codebeat.co/projects/github-com-urfave-cli)
 [![Go Report Card](https://goreportcard.com/badge/urfave/cli)](https://goreportcard.com/report/urfave/cli)
 [![codecov](https://codecov.io/gh/urfave/cli/branch/master/graph/badge.svg)](https://codecov.io/gh/urfave/cli)
@@ -65,7 +65,7 @@ the install instructions for Go](http://golang.org/doc/install.html).
 
 To install cli, simply run:
 ```
-$ go get github.com/urfave/cli
+$ go get github.com/radiantrfid/cli
 ```
 
 Make sure your `PATH` includes the `$GOPATH/bin` directory so your commands can
@@ -107,13 +107,13 @@ import (
 ### Using `v1` releases
 
 ```
-$ go get github.com/urfave/cli
+$ go get github.com/radiantrfid/cli
 ```
 
 ```go
 ...
 import (
-  "github.com/urfave/cli"
+  "github.com/radiantrfid/cli"
 )
 ...
 ```
@@ -135,7 +135,7 @@ import (
   "log"
   "os"
 
-  "github.com/urfave/cli"
+  "github.com/radiantrfid/cli"
 )
 
 func main() {
@@ -160,7 +160,7 @@ import (
   "log"
   "os"
 
-  "github.com/urfave/cli"
+  "github.com/radiantrfid/cli"
 )
 
 func main() {
@@ -202,7 +202,7 @@ import (
   "log"
   "os"
 
-  "github.com/urfave/cli"
+  "github.com/radiantrfid/cli"
 )
 
 func main() {
@@ -269,7 +269,7 @@ import (
   "log"
   "os"
 
-  "github.com/urfave/cli"
+  "github.com/radiantrfid/cli"
 )
 
 func main() {
@@ -302,7 +302,7 @@ import (
   "log"
   "os"
 
-  "github.com/urfave/cli"
+  "github.com/radiantrfid/cli"
 )
 
 func main() {
@@ -350,7 +350,7 @@ import (
   "os"
   "fmt"
 
-  "github.com/urfave/cli"
+  "github.com/radiantrfid/cli"
 )
 
 func main() {
@@ -387,7 +387,7 @@ func main() {
 }
 ```
 
-See full list of flags at http://godoc.org/github.com/urfave/cli
+See full list of flags at http://godoc.org/github.com/radiantrfid/cli
 
 #### Placeholder Values
 
@@ -407,7 +407,7 @@ import (
   "log"
   "os"
 
-  "github.com/urfave/cli"
+  "github.com/radiantrfid/cli"
 )
 
 func main() {
@@ -452,7 +452,7 @@ import (
   "log"
   "os"
 
-  "github.com/urfave/cli"
+  "github.com/radiantrfid/cli"
 )
 
 func main() {
@@ -497,7 +497,7 @@ import (
   "os"
   "sort"
 
-  "github.com/urfave/cli"
+  "github.com/radiantrfid/cli"
 )
 
 func main() {
@@ -566,7 +566,7 @@ import (
   "log"
   "os"
 
-  "github.com/urfave/cli"
+  "github.com/radiantrfid/cli"
 )
 
 func main() {
@@ -602,7 +602,7 @@ import (
   "log"
   "os"
 
-  "github.com/urfave/cli"
+  "github.com/radiantrfid/cli"
 )
 
 func main() {
@@ -639,7 +639,7 @@ import (
   "log"
   "os"
 
-  "github.com/urfave/cli"
+  "github.com/radiantrfid/cli"
 )
 
 func main() {
@@ -711,8 +711,8 @@ import (
   "log"
   "os"
 
-  "github.com/urfave/cli"
-  "github.com/urfave/cli/altsrc"
+  "github.com/radiantrfid/cli"
+  "github.com/radiantrfid/cli/altsrc"
 )
 
 func main() {
@@ -763,7 +763,7 @@ import (
   "log"
   "os"
 
-  "github.com/urfave/cli"
+  "github.com/radiantrfid/cli"
 )
 
 func main() {
@@ -835,7 +835,7 @@ import (
   "log"
   "os"
 
-  "github.com/urfave/cli"
+  "github.com/radiantrfid/cli"
 )
 
 func main() {
@@ -889,7 +889,7 @@ import (
   "log"
   "os"
 
-  "github.com/urfave/cli"
+  "github.com/radiantrfid/cli"
 )
 
 func main() {
@@ -939,7 +939,7 @@ import (
   "log"
   "os"
 
-  "github.com/urfave/cli"
+  "github.com/radiantrfid/cli"
 )
 
 func main() {
@@ -1003,7 +1003,7 @@ import (
   "log"
   "os"
 
-  "github.com/urfave/cli"
+  "github.com/radiantrfid/cli"
 )
 
 func main() {
@@ -1078,7 +1078,7 @@ import (
   "log"
   "os"
 
-  "github.com/urfave/cli"
+  "github.com/radiantrfid/cli"
 )
 
 func main() {
@@ -1127,7 +1127,7 @@ import (
   "io"
   "os"
 
-  "github.com/urfave/cli"
+  "github.com/radiantrfid/cli"
 )
 
 func main() {
@@ -1188,7 +1188,7 @@ import (
   "log"
   "os"
 
-  "github.com/urfave/cli"
+  "github.com/radiantrfid/cli"
 )
 
 func main() {
@@ -1227,7 +1227,7 @@ import (
   "log"
   "os"
 
-  "github.com/urfave/cli"
+  "github.com/radiantrfid/cli"
 )
 
 func main() {
@@ -1260,7 +1260,7 @@ import (
   "log"
   "os"
 
-  "github.com/urfave/cli"
+  "github.com/radiantrfid/cli"
 )
 
 var (
@@ -1302,7 +1302,7 @@ import (
   "os"
   "time"
 
-  "github.com/urfave/cli"
+  "github.com/radiantrfid/cli"
 )
 
 func init() {

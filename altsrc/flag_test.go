@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/urfave/cli"
+	"github.com/radiantrfid/cli"
 )
 
 type testApplyInputSource struct {

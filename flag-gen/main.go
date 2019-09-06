@@ -5,7 +5,7 @@ package main
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/urfave/cli"
+	"github.com/radiantrfid/cli"
 	"io/ioutil"
 	"log"
 	"os"

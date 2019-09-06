@@ -12,7 +12,7 @@ import (
 	"os/exec"
 	"strings"
 
-	"github.com/urfave/cli"
+	"github.com/radiantrfid/cli"
 )
 
 var packages = []string{"cli", "altsrc"}
@@ -71,9 +71,9 @@ func TestActionFunc(c *cli.Context) error {
 		var packageName string
 
 		if pkg == "cli" {
-			packageName = "github.com/urfave/cli"
+			packageName = "github.com/radiantrfid/cli"
 		} else {
-			packageName = fmt.Sprintf("github.com/urfave/cli/%s", pkg)
+			packageName = fmt.Sprintf("github.com/radiantrfid/cli/%s", pkg)
 		}
 
 		coverProfile := fmt.Sprintf("--coverprofile=%s.coverprofile", pkg)

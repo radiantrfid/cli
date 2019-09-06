@@ -14,7 +14,7 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/urfave/cli"
+	"github.com/radiantrfid/cli"
 
 	"gopkg.in/yaml.v2"
 )
